@@ -1,0 +1,132 @@
+.submenu{
+    background-color: rgba(185, 36, 52, 1);
+}
+
+.submenu .dropdown-menu{
+    background-color: rgba(185, 36, 52, 1);
+}
+
+.submenu .nav-underline .dropdown a:hover{
+    color: black;
+}
+
+.submenu #dropdown-item:hover{
+    color: #ffff;
+}
+
+.submenu .nav-underline{
+    text-decoration: none;
+}
+
+.submenu .nav-underline .nav-link{
+    font-weight: normal;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+
+.submenu .nav-underline a, .nav-underline .nav-link.active, .nav-underline .show>.nav-link{
+    font-weight: bold;
+}
+
+.submenu .nav-underline a,
+.nav-underline .nav-link.active, .nav-underline .show>.nav-link{
+    color: #ffff;
+}
+
+.bg-body-tertiary{
+    background-color: none;
+}
+
+header{
+    background-color: rgb(248, 249, 250);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.234);
+}
+
+.carousel-caption{
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.34);
+}
+
+.título-slide{
+    text-transform: uppercase;
+}
+
+#Lives-cultos{
+    background-color: rgba(66, 67, 68, 1);
+    color:#ffff
+}
+
+#Lives-cultos a{
+    color: #ffff;
+}
+#Lives-cultos a:hover{
+    color: black;
+}
+
+.texto-colorido{
+    color: rgba(185, 36, 52, 1);
+}
+
+.texto-colorido2{
+    color: #ffff;
+}
+
+#OqueAcreditamos{
+    background-color: rgba(66, 67, 68, 1);
+    color: #ffff;
+}
+
+#endereço{
+    background-color: rgba(66, 67, 68, 1);
+}
+
+#endereço {
+    background-color: rgb(172, 67, 77);
+}
+
+.list-group-item{
+    color: #ffff;
+}
+
+.lista-endereco{
+    align-items: center;
+}
+
+.fixonotopo{
+    position: fixed;
+    top:0px;
+    width: 100%;
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #ffff;
+}
+
+footer h4{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.362);
+    margin-bottom: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer .links ul{
+    list-style: none;
+}
+
+/* BREAKPOINTS */
+
+@media (max-width: 576px){
+    header .navbar-expand-lg{
+        padding: 0;
+    }
+    .submenu .container{
+        padding: 5px 5px;
+    }
+    button .navbar-toggler{
+        left: 0;
+    }
+}
