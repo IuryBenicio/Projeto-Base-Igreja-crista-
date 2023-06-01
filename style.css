@@ -1,5 +1,13 @@
+header img{
+    max-width: 100px;
+}
+
 .submenu{
     background-color: rgba(185, 36, 52, 1);
+}
+
+#submenu .container {
+    justify-content: center;
 }
 
 .submenu .dropdown-menu{
@@ -46,6 +54,10 @@ header{
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.34);
 }
 
+#endereço i{
+    font-size: 20px;
+}
+
 .título-slide{
     text-transform: uppercase;
 }
@@ -53,6 +65,10 @@ header{
 #Lives-cultos{
     background-color: rgba(66, 67, 68, 1);
     color:#ffff
+}
+
+#Lives-cultos .col-4 i:not(button i){
+    font-size: 50px;
 }
 
 #Lives-cultos a{
@@ -81,6 +97,14 @@ header{
 
 #endereço {
     background-color: rgb(172, 67, 77);
+}
+
+#endereço h2{
+    padding-bottom: 24px;
+}
+
+#endereço .col-6{
+    padding: 0 0;
 }
 
 .list-group-item{
@@ -120,13 +144,128 @@ footer .links ul{
 /* BREAKPOINTS */
 
 @media (max-width: 576px){
+    header .container{
+        display: flex;
+        justify-content: center;
+    }
+    header .navbar-brand{
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .busca{
+        display: none;
+    }
     header .navbar-expand-lg{
         padding: 0;
     }
     .submenu .container{
         padding: 5px 5px;
+        width: 50%;
     }
-    button .navbar-toggler{
-        left: 0;
+    nav .container-fluid button{
+        margin-bottom: 5px;
+    }
+    .navbar-toggler{
+        background-color:none;
+        border: none;
+    } 
+    .navbar-toggler:active{
+        border: none;
+    }
+
+    .título-slide{
+        display: none;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .corpo-slide{
+        display: none;
+        font-size: 8px;
+        margin-bottom: 0;
+    }
+    .carousel-caption{
+        padding-bottom: 5px;
+    }
+    
+    #Lives-cultos .col-4 i{
+        font-size: 10px;
+    }
+
+    #Lives-cultos h3{
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    #Lives-cultos p{
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    #Lives-cultos button{
+        font-size: 14px;
+        padding: 3px 6px ;
+    }
+
+    #OqueAcreditamos h2{
+        font-size: 20px;
+    }
+    #OqueAcreditamos .fs-4{
+        font-size: 12px;
+    }
+
+    #endereço{
+        padding-bottom: 5px;
+    }
+    #endereço ul{
+        margin-bottom: 0;
+        padding-left: 5px;
+    }
+    #endereço iframe{
+        margin-left: 10px;
+    }
+
+    #endereço h4{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    #endereço p{
+        margin-bottom: 10px;
+    }
+
+    #endereço .col-6{
+        padding: 0 16px;
+    }
+
+    #endereço i{
+        font-size: 16px;
+    }
+
+    #endereço h2{
+        margin: 0;
+        padding-bottom: 8px;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+
+    footer .redes{
+        margin-bottom: 16px;
+    }
+
+    footer .container{
+        padding-top: 10px;
+    }
+
+    footer .links-nav{
+        display: none;
     }
 }

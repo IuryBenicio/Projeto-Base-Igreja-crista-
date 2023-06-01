@@ -14,7 +14,7 @@
         <div class="container">
             <div class="navbar navbar-expand-lg sticky-top justify-content-between p-sm-0">
                 <div class="navbar navbar-brand">
-                    <img src="/img/16_81357_6050a3acdd8b1.png" style="max-width: 100px;" alt="Logo Base igreja cristã">
+                    <img src="/img/16_81357_6050a3acdd8b1.png" alt="Logo Base igreja cristã">
                 </div>
                 <div class="busca">
                     <nav class="navbar bg-body-tertiary">
@@ -29,10 +29,10 @@
             </div>
         </div>
         <div id="submenu" class="submenu navbar navbar-expand-lg sticky-top ">
-            <div class="container justify-content-center">
-                <button class="navbar-toggler justify-content-end" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler " data-bs-theme="dark" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container">
                 <div id="#menu-navegacao ">
                     <nav class="navbar-collapse collapse " id="menu-navegacao">
                         <ul class="nav nav-underline d-flex ">
@@ -48,7 +48,7 @@
                                     Sobre nós
                                 </a>
                             </li>
-                            <li class="nav-item me-5 ms-3 me-3">
+                            <li class="nav-item me-5 me-3">
                                 <a class="nav-link fs-6 " href="#">
                                     <i class="bi bi-list-task"></i>
                                     Agenda
@@ -148,12 +148,12 @@
             <div class="container">
                 <div class="row text-center align-self-center">
                     <div class="col-4">
-                        <i style="font-size: 50px;" class="bi bi-people-fill"></i>
+                        <i class="bi bi-people-fill"></i>
                         <h3>Cultos</h3>
                         <p>Todo domingo as 18:00 horas</p>
                     </div>
                     <div class="col-4">
-                        <i style="font-size: 50px;" class=" bi bi-collection-play-fill"></i>
+                        <i class="bi bi-collection-play-fill"></i>
                         <h3>Assista online</h3>
                         <p>Todo domingo as 18:00 horas</p>
                         <button type="button" class="btn btn-danger">
@@ -162,8 +162,8 @@
                         </button>
                     </div>
                     <div class="col-4">
-                        <i style="font-size: 50px;" class="bi bi-geo-fill"></i>
-                        <h3>Venha assistir nosso culto pessoalmente</h3>
+                        <i class="bi bi-geo-fill"></i>
+                        <h3>Venha nos conhecer</h3>
                         <p><a href="#endereço" style="text-decoration: none;">Clique aqui</a> para ir para o nosso endereço</p>
                     </div>
                 </div>                
@@ -184,49 +184,55 @@
         </section>
         
 
-        <section id="endereço" class="pb-4">
+        <section id="endereço" class="pb-md-4">
             <div class="pt-2 pb-2">
-                <h2 class="text-center fw-bold pb-4" style="color: #ffff;">ONDE NOS <span class="texto-colorido2">ENCONTRAR</span></h2>
+                <h2 class="text-center fw-bold" style="color: #ffff;">ONDE NOS <span class="texto-colorido2">ENCONTRAR</span></h2>
                 <div class="lista-endereco d-flex justify-content-center">
-                    <iframe class="rounded me-4" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15943.825136192043!2d-44.2645379!3d-2.5211825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f68e0e197c8053%3A0xe3216587abfe8def!2sIgreja%20Base%20Recanto%20dos%20Vinhais!5e0!3m2!1spt-BR!2sbr!4v1685389560250!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <ul class=" me-2">
-                        <li class="list-group-item d-flex align-self-center">
-                            <i class="bi bi-geo-alt-fill me-2 fs-4"></i>
-                            <div class="texto-lista-endereco">
-                                <h4>Endereço:</h4>
-                                <p>
-                                    Av. Antares, 764 - Recanto dos Vinhais, São Luís - MA.
-                                </p>                                
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex align-self-center">
-                            <i class="bi bi-geo-alt-fill me-2 fs-4"></i>
-                            <div class="texto-lista-endereco">
-                                <h4>Cep:</h4>
-                                <p>
-                                    65065-070
-                                </p>                                
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex align-self-center">
-                            <i class="bi bi-telephone-fill me-2 fs-4"></i>
-                            <div class="texto-lista-endereco">
-                                <h4>Telefone:</h4>
-                                <p>
-                                    +55 (98) 3304-4210
-                                </p>                                
-                            </div>
-                        </li>
-                    </ul>                    
+                    <div class="row">
+                        <div class="col-6">
+                            <iframe class="rounded me-md-4 w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15943.825136192043!2d-44.2645379!3d-2.5211825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f68e0e197c8053%3A0xe3216587abfe8def!2sIgreja%20Base%20Recanto%20dos%20Vinhais!5e0!3m2!1spt-BR!2sbr!4v1685389560250!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="col-6">
+                            <ul class=" me-2">
+                                <li class="list-group-item d-flex align-self-center">
+                                    <i class="bi bi-geo-alt-fill "></i>
+                                    <div class="texto-lista-endereco">
+                                        <h4>Endereço:</h4>
+                                        <p>
+                                            Av. Antares, 764 - Recanto dos Vinhais, São Luís - MA.
+                                        </p>                                
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex align-self-center">
+                                    <i class="bi bi-geo-alt-fill "></i>
+                                    <div class="texto-lista-endereco">
+                                        <h4>Cep:</h4>
+                                        <p>
+                                            65065-070
+                                        </p>                                
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex align-self-center">
+                                    <i class="bi bi-telephone-fill "></i>
+                                    <div class="texto-lista-endereco">
+                                        <h4>Telefone:</h4>
+                                        <p>
+                                            +55 (98) 3304-4210
+                                        </p>                                
+                                    </div>
+                                </li>
+                            </ul>             
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-
     </main>
+
     <footer>
-        <div class="container pt-4">
+        <div class="container pt-md-4">
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6">
                     <h6>Redes Sociais</h6>
                     <div class="redes d-flex align-self-center ms-2 mt-2">
                         <a href="#"><i class="bi bi-instagram fs-3 me-2"></i></a>
@@ -234,11 +240,11 @@
                         <a href="#"><i class="bi bi-youtube fs-3 me-2"></i></a>                        
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6">
                     <h6>Endereço</h6>
                     <p class="ms-2 mt-2">Av. Antares, 764 - Recanto dos Vinhais, São Luís - MA.</p>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 links-nav">
                     <h6>Navegar pelo site</h6>
                     <div class="links d-block mt-2 ms-2">
                         <div class="row">
